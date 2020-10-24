@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+.message {
+    font-weight: bold;
+    color: red;
+}
